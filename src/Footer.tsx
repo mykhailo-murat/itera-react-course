@@ -3,7 +3,7 @@ export type FooterProps = {
 }
 
 export const Footer: React.FC<FooterProps> = (props) => (
-    <footer>
-        <p>Footer {props.copyright}</p>
+    <footer className="footer">
+        <p> {props.copyright} </p>
     </footer>
 )
